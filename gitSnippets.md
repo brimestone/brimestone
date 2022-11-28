@@ -9,6 +9,9 @@
 ### Commit changes
 `git commit -S -a -m "initial commit to local branch"`
 
+### Revert specific file to before changes
+`git checkout HEAD^ -- path/to/file.ext`
+
 ### Push local branch to a new remote branch
 `git push --set-upstream origin feature/new-remote-branch`
 
