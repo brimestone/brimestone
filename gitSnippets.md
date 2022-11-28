@@ -12,6 +12,9 @@
 ### Push local branch to a new remote branch
 `git push --set-upstream origin feature/new-remote-branch`
 
+### Pull changes from remote branch
+`git pull`
+
 ### Push local branch to existing remote branch
 `git push -f`
 
