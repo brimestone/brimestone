@@ -14,3 +14,14 @@
 
 ### Push local branch to existing remote branch
 `git push -f`
+
+### Delete local branch
+`git branch -d feature/branch`
+
+### Delete remote branch
+`git push origin --delete feature/remote-branch`
+
+### Make and no-edit commit
+`git commit --amend --no-edit`
+
+ 
