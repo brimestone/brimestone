@@ -24,4 +24,8 @@
 ### Make and no-edit commit
 `git commit --amend --no-edit`
 
- 
+### Stash away current changes
+`git stash push`
+
+### Apply stashed away changes to current branch
+`git stash pop`
