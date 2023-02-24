@@ -37,9 +37,7 @@
 `git stash pop`
 
 ### Save current changes to a file
-`git stash clear`
-`git stash push`
-`git stash show "stash@{0}" -p > issue_ref.patch`
+`git stash clear; git stash push; git stash show "stash@{0}" -p > issue_ref.patch`
 
 ### Apply patch file to repo
 `git apply issue_ref.patch`
