@@ -41,3 +41,6 @@
 
 ### Apply patch file to repo
 `git apply issue_ref.patch`
+
+### Create a patch from current branch
+`git diff master branch > path/to/patch.patch`
