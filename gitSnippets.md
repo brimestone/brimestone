@@ -44,3 +44,6 @@
 
 ### Create a patch from current branch
 `git diff master branch > path/to/patch.patch`
+
+### Get merges between branches for Bisect operation
+`git log <good_branch>..<bad_branch> --first-parent --merges --oneline
